@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EB2D83E1C6E563F00D165C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2D83D1C6E563F00D165C2 /* SettingsViewController.swift */; };
 		7EF257BC1C6D0281003038FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF257BB1C6D0281003038FA /* AppDelegate.swift */; };
-		7EF257BE1C6D0281003038FA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF257BD1C6D0281003038FA /* FirstViewController.swift */; };
-		7EF257C01C6D0281003038FA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF257BF1C6D0281003038FA /* SecondViewController.swift */; };
+		7EF257BE1C6D0281003038FA /* ProblemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF257BD1C6D0281003038FA /* ProblemsViewController.swift */; };
+		7EF257C01C6D0281003038FA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF257BF1C6D0281003038FA /* HistoryViewController.swift */; };
 		7EF257C31C6D0281003038FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF257C11C6D0281003038FA /* Main.storyboard */; };
 		7EF257C51C6D0281003038FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF257C41C6D0281003038FA /* Assets.xcassets */; };
 		7EF257C81C6D0281003038FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF257C61C6D0281003038FA /* LaunchScreen.storyboard */; };
-		7EF257D31C6D0281003038FA /* A_Tabberific_Assignment_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF257D21C6D0281003038FA /* A_Tabberific_Assignment_Tests.swift */; };
-		7EF257DE1C6D0281003038FA /* A_Tabberific_Assignment_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF257DD1C6D0281003038FA /* A_Tabberific_Assignment_UITests.swift */; };
+		7EF257F21C6D0F1E003038FA /* MathTeacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF257F11C6D0F1E003038FA /* MathTeacher.swift */; };
+		933AE1381C7266E300E08FA1 /* Clock-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 933AE1371C7266E300E08FA1 /* Clock-25.png */; };
+		933AE13A1C7266EF00E08FA1 /* Settings 3 Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 933AE1391C7266EF00E08FA1 /* Settings 3 Filled-25.png */; };
+		933AE13C1C7266F600E08FA1 /* Math-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 933AE13B1C7266F600E08FA1 /* Math-25.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +38,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7EF257B81C6D0281003038FA /* A Tabberific Assignment!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Tabberific Assignment!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB2D83D1C6E563F00D165C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7EB2D83F1C6E5A8A00D165C2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		7EF257B81C6D0281003038FA /* A Math Teacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Math Teacher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF257BB1C6D0281003038FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EF257BD1C6D0281003038FA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7EF257BF1C6D0281003038FA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7EF257BD1C6D0281003038FA /* ProblemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsViewController.swift; sourceTree = "<group>"; };
+		7EF257BF1C6D0281003038FA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		7EF257C21C6D0281003038FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EF257C41C6D0281003038FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF257C71C6D0281003038FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF257C91C6D0281003038FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EF257CE1C6D0281003038FA /* A Tabberific Assignment!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A Tabberific Assignment!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EF257D21C6D0281003038FA /* A_Tabberific_Assignment_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Tabberific_Assignment_Tests.swift; sourceTree = "<group>"; };
-		7EF257D41C6D0281003038FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EF257D91C6D0281003038FA /* A Tabberific Assignment!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A Tabberific Assignment!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EF257DD1C6D0281003038FA /* A_Tabberific_Assignment_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Tabberific_Assignment_UITests.swift; sourceTree = "<group>"; };
-		7EF257DF1C6D0281003038FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF257CE1C6D0281003038FA /* A Math TeacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A Math TeacherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF257D91C6D0281003038FA /* A Math TeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A Math TeacherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF257F11C6D0F1E003038FA /* MathTeacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MathTeacher.swift; path = ../MathTeacher.swift; sourceTree = "<group>"; };
+		933AE1371C7266E300E08FA1 /* Clock-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock-25.png"; sourceTree = "<group>"; };
+		933AE1391C7266EF00E08FA1 /* Settings 3 Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings 3 Filled-25.png"; sourceTree = "<group>"; };
+		933AE13B1C7266F600E08FA1 /* Math-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Math-25.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +84,8 @@
 		7EF257AF1C6D0281003038FA = {
 			isa = PBXGroup;
 			children = (
-				7EF257BA1C6D0281003038FA /* A Tabberific Assignment! */,
-				7EF257D11C6D0281003038FA /* A Tabberific Assignment!Tests */,
-				7EF257DC1C6D0281003038FA /* A Tabberific Assignment!UITests */,
+				7EB2D83F1C6E5A8A00D165C2 /* MyPlayground.playground */,
+				7EF257BA1C6D0281003038FA /* A Math Teacher */,
 				7EF257B91C6D0281003038FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,51 +93,39 @@
 		7EF257B91C6D0281003038FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EF257B81C6D0281003038FA /* A Tabberific Assignment!.app */,
-				7EF257CE1C6D0281003038FA /* A Tabberific Assignment!Tests.xctest */,
-				7EF257D91C6D0281003038FA /* A Tabberific Assignment!UITests.xctest */,
+				7EF257B81C6D0281003038FA /* A Math Teacher.app */,
+				7EF257CE1C6D0281003038FA /* A Math TeacherTests.xctest */,
+				7EF257D91C6D0281003038FA /* A Math TeacherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7EF257BA1C6D0281003038FA /* A Tabberific Assignment! */ = {
+		7EF257BA1C6D0281003038FA /* A Math Teacher */ = {
 			isa = PBXGroup;
 			children = (
 				7EF257BB1C6D0281003038FA /* AppDelegate.swift */,
-				7EF257BD1C6D0281003038FA /* FirstViewController.swift */,
-				7EF257BF1C6D0281003038FA /* SecondViewController.swift */,
+				7EF257BD1C6D0281003038FA /* ProblemsViewController.swift */,
+				7EF257BF1C6D0281003038FA /* HistoryViewController.swift */,
+				7EF257F11C6D0F1E003038FA /* MathTeacher.swift */,
 				7EF257C11C6D0281003038FA /* Main.storyboard */,
 				7EF257C41C6D0281003038FA /* Assets.xcassets */,
 				7EF257C61C6D0281003038FA /* LaunchScreen.storyboard */,
 				7EF257C91C6D0281003038FA /* Info.plist */,
+				7EB2D83D1C6E563F00D165C2 /* SettingsViewController.swift */,
+				933AE1371C7266E300E08FA1 /* Clock-25.png */,
+				933AE13B1C7266F600E08FA1 /* Math-25.png */,
+				933AE1391C7266EF00E08FA1 /* Settings 3 Filled-25.png */,
 			);
+			name = "A Math Teacher";
 			path = "A Tabberific Assignment!";
-			sourceTree = "<group>";
-		};
-		7EF257D11C6D0281003038FA /* A Tabberific Assignment!Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7EF257D21C6D0281003038FA /* A_Tabberific_Assignment_Tests.swift */,
-				7EF257D41C6D0281003038FA /* Info.plist */,
-			);
-			path = "A Tabberific Assignment!Tests";
-			sourceTree = "<group>";
-		};
-		7EF257DC1C6D0281003038FA /* A Tabberific Assignment!UITests */ = {
-			isa = PBXGroup;
-			children = (
-				7EF257DD1C6D0281003038FA /* A_Tabberific_Assignment_UITests.swift */,
-				7EF257DF1C6D0281003038FA /* Info.plist */,
-			);
-			path = "A Tabberific Assignment!UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7EF257B71C6D0281003038FA /* A Tabberific Assignment! */ = {
+		7EF257B71C6D0281003038FA /* A Math Teacher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EF257E21C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Tabberific Assignment!" */;
+			buildConfigurationList = 7EF257E21C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Math Teacher" */;
 			buildPhases = (
 				7EF257B41C6D0281003038FA /* Sources */,
 				7EF257B51C6D0281003038FA /* Frameworks */,
@@ -143,14 +135,14 @@
 			);
 			dependencies = (
 			);
-			name = "A Tabberific Assignment!";
+			name = "A Math Teacher";
 			productName = "A Tabberific Assignment!";
-			productReference = 7EF257B81C6D0281003038FA /* A Tabberific Assignment!.app */;
+			productReference = 7EF257B81C6D0281003038FA /* A Math Teacher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7EF257CD1C6D0281003038FA /* A Tabberific Assignment!Tests */ = {
+		7EF257CD1C6D0281003038FA /* A Math TeacherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EF257E51C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Tabberific Assignment!Tests" */;
+			buildConfigurationList = 7EF257E51C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Math TeacherTests" */;
 			buildPhases = (
 				7EF257CA1C6D0281003038FA /* Sources */,
 				7EF257CB1C6D0281003038FA /* Frameworks */,
@@ -161,14 +153,14 @@
 			dependencies = (
 				7EF257D01C6D0281003038FA /* PBXTargetDependency */,
 			);
-			name = "A Tabberific Assignment!Tests";
+			name = "A Math TeacherTests";
 			productName = "A Tabberific Assignment!Tests";
-			productReference = 7EF257CE1C6D0281003038FA /* A Tabberific Assignment!Tests.xctest */;
+			productReference = 7EF257CE1C6D0281003038FA /* A Math TeacherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7EF257D81C6D0281003038FA /* A Tabberific Assignment!UITests */ = {
+		7EF257D81C6D0281003038FA /* A Math TeacherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EF257E81C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Tabberific Assignment!UITests" */;
+			buildConfigurationList = 7EF257E81C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Math TeacherUITests" */;
 			buildPhases = (
 				7EF257D51C6D0281003038FA /* Sources */,
 				7EF257D61C6D0281003038FA /* Frameworks */,
@@ -179,9 +171,9 @@
 			dependencies = (
 				7EF257DB1C6D0281003038FA /* PBXTargetDependency */,
 			);
-			name = "A Tabberific Assignment!UITests";
+			name = "A Math TeacherUITests";
 			productName = "A Tabberific Assignment!UITests";
-			productReference = 7EF257D91C6D0281003038FA /* A Tabberific Assignment!UITests.xctest */;
+			productReference = 7EF257D91C6D0281003038FA /* A Math TeacherUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,18 +188,21 @@
 				TargetAttributes = {
 					7EF257B71C6D0281003038FA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
 					};
 					7EF257CD1C6D0281003038FA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = 7EF257B71C6D0281003038FA;
 					};
 					7EF257D81C6D0281003038FA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = 7EF257B71C6D0281003038FA;
 					};
 				};
 			};
-			buildConfigurationList = 7EF257B31C6D0281003038FA /* Build configuration list for PBXProject "A Tabberific Assignment!" */;
+			buildConfigurationList = 7EF257B31C6D0281003038FA /* Build configuration list for PBXProject "A Math Teacher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +215,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7EF257B71C6D0281003038FA /* A Tabberific Assignment! */,
-				7EF257CD1C6D0281003038FA /* A Tabberific Assignment!Tests */,
-				7EF257D81C6D0281003038FA /* A Tabberific Assignment!UITests */,
+				7EF257B71C6D0281003038FA /* A Math Teacher */,
+				7EF257CD1C6D0281003038FA /* A Math TeacherTests */,
+				7EF257D81C6D0281003038FA /* A Math TeacherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +227,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933AE13A1C7266EF00E08FA1 /* Settings 3 Filled-25.png in Resources */,
 				7EF257C81C6D0281003038FA /* LaunchScreen.storyboard in Resources */,
 				7EF257C51C6D0281003038FA /* Assets.xcassets in Resources */,
 				7EF257C31C6D0281003038FA /* Main.storyboard in Resources */,
+				933AE13C1C7266F600E08FA1 /* Math-25.png in Resources */,
+				933AE1381C7266E300E08FA1 /* Clock-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF257C01C6D0281003038FA /* SecondViewController.swift in Sources */,
+				7EF257F21C6D0F1E003038FA /* MathTeacher.swift in Sources */,
+				7EF257C01C6D0281003038FA /* HistoryViewController.swift in Sources */,
 				7EF257BC1C6D0281003038FA /* AppDelegate.swift in Sources */,
-				7EF257BE1C6D0281003038FA /* FirstViewController.swift in Sources */,
+				7EB2D83E1C6E563F00D165C2 /* SettingsViewController.swift in Sources */,
+				7EF257BE1C6D0281003038FA /* ProblemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF257D31C6D0281003038FA /* A_Tabberific_Assignment_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF257DE1C6D0281003038FA /* A_Tabberific_Assignment_UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		7EF257D01C6D0281003038FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7EF257B71C6D0281003038FA /* A Tabberific Assignment! */;
+			target = 7EF257B71C6D0281003038FA /* A Math Teacher */;
 			targetProxy = 7EF257CF1C6D0281003038FA /* PBXContainerItemProxy */;
 		};
 		7EF257DB1C6D0281003038FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7EF257B71C6D0281003038FA /* A Tabberific Assignment! */;
+			target = 7EF257B71C6D0281003038FA /* A Math Teacher */;
 			targetProxy = 7EF257DA1C6D0281003038FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,6 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.A-Tabberific-Assignment-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -418,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.A-Tabberific-Assignment-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -429,7 +429,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.A-Tabberific-Assignment-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A Tabberific Assignment!.app/A Tabberific Assignment!";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A Math Teacher.app/A Math Teacher";
 			};
 			name = Debug;
 		};
@@ -441,7 +442,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.A-Tabberific-Assignment-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A Tabberific Assignment!.app/A Tabberific Assignment!";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A Math Teacher.app/A Math Teacher";
 			};
 			name = Release;
 		};
@@ -452,6 +454,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.A-Tabberific-Assignment-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "A Tabberific Assignment!";
 				USES_XCTRUNNER = YES;
 			};
@@ -464,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.A-Tabberific-Assignment-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "A Tabberific Assignment!";
 				USES_XCTRUNNER = YES;
 			};
@@ -472,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7EF257B31C6D0281003038FA /* Build configuration list for PBXProject "A Tabberific Assignment!" */ = {
+		7EF257B31C6D0281003038FA /* Build configuration list for PBXProject "A Math Teacher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF257E01C6D0281003038FA /* Debug */,
@@ -481,29 +485,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EF257E21C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Tabberific Assignment!" */ = {
+		7EF257E21C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Math Teacher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF257E31C6D0281003038FA /* Debug */,
 				7EF257E41C6D0281003038FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7EF257E51C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Tabberific Assignment!Tests" */ = {
+		7EF257E51C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Math TeacherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF257E61C6D0281003038FA /* Debug */,
 				7EF257E71C6D0281003038FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7EF257E81C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Tabberific Assignment!UITests" */ = {
+		7EF257E81C6D0281003038FA /* Build configuration list for PBXNativeTarget "A Math TeacherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF257E91C6D0281003038FA /* Debug */,
 				7EF257EA1C6D0281003038FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
